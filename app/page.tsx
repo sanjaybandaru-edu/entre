@@ -52,9 +52,9 @@ export default function Home() {
       <ServicesSection />
       <TeamSection />
       <CommunitySection />
+      <FAQSection />
       <PricingSection />
       <ContactSection />
-      <FAQSection />
       <FooterSection />
       {/* <ServicesAndMembership/> */}
     </>

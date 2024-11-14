@@ -48,7 +48,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: "https://collegehive.in/docs/ass/images/rakshit_dp.png",
+      imageUrl: "https://iili.io/2AJ1Ru2.md.jpg",
       firstName: "Rakshita",
       lastName: "Sanghvi",
       positions: ["Research Analyst"],

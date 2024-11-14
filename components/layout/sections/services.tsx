@@ -15,39 +15,32 @@ interface ServiceProps {
   title: string;
   pro?: ProService;
   description: string;
-  features: string[];
 }
 
 const services: ServiceProps[] = [
   {
     title: 'Expert Mentorship',
     description: 'Receive personalized guidance from seasoned industry mentors to overcome challenges and accelerate growth.',
-    features: ['Tailored Mentoring', 'Goal Alignment', 'Ongoing Progress Review'],
   },
   {
     title: 'Strategic Business Consulting',
     description: 'Leverage strategic insights to enhance operational efficiency and drive sustainable profitability.',
-    features: ['Strategic Roadmap', 'Process Improvement', 'Growth Acceleration'],
   },
   {
     title: 'Comprehensive Market Research',
     description: 'Utilize data-driven market insights for well-informed business decisions.',
-    features: ['Competitor Benchmarking', 'Industry Trends Analysis', 'Customer Behavior Insights'],
   },
   {
     title: 'In-Depth Business Reports',
     description: 'Receive detailed reports that provide actionable insights for scalable growth.',
-    features: ['Key Performance Analysis', 'Growth Opportunities', 'Strategic Recommendations'],
   },
   {
     title: 'Professional Web Development',
     description: 'Develop custom, responsive websites to enhance your digital footprint and customer reach.',
-    features: ['Mobile Optimization', 'SEO Best Practices', 'E-commerce Integration'],
   },
   {
     title: 'Business Model Canvas & Reports',
     description: 'Access tools to build a comprehensive Business Model Canvas and receive detailed, compiled reports for strategic planning.',
-    features: ['Business Model Canvas Tools', 'Detailed Financial Reports', 'Compiled Market & Competitor Analysis'],
   }
 ];
 
@@ -65,7 +58,7 @@ export const ServicesSection = () => {
         expertise to help you achieve your goals.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {services.map(({ title, description, features, pro }) => (
+        {services.map(({ title, description, pro }) => (
           <Card
             key={title}
             className="bg-muted/60 dark:bg-card h-full relative"
@@ -86,14 +79,6 @@ export const ServicesSection = () => {
               </div>
               <CardDescription>{description}</CardDescription>
             </CardHeader>
-            <div className="mt-4 pl-4">
-              <h4 className="text-sm font-semibold mb-2">Features:</h4>
-              <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                {features.map((feature) => (
-                  <li key={feature}>{feature}</li>
-                ))}
-              </ul>
-            </div>
           </Card>
         ))}
       </div>
