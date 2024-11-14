@@ -74,14 +74,14 @@ export const ContactSection = () => {
           </p>
 
           <div className="flex flex-col gap-4">
-            <div>
+            {/* <div>
               <div className="flex gap-2 mb-1">
                 <Building2 />
                 <div className="font-bold">Find us</div>
               </div>
 
               <div>742 Evergreen Terrace, Springfield, IL 62704</div>
-            </div>
+            </div> */}
 
             <div>
               <div className="flex gap-2 mb-1">
@@ -89,7 +89,7 @@ export const ContactSection = () => {
                 <div className="font-bold">Call us</div>
               </div>
 
-              <div>+1 (619) 123-4567</div>
+              <div>+91 9311236557 / +91 9030234152 </div>
             </div>
 
             <div>
@@ -101,7 +101,7 @@ export const ContactSection = () => {
               <div>entreconnect01@gmail.com</div>
             </div>
 
-            <div>
+            {/* <div>
               <div className="flex gap-2">
                 <Clock />
                 <div className="font-bold">Visit us</div>
@@ -111,11 +111,11 @@ export const ContactSection = () => {
                 <div>Monday - Friday</div>
                 <div>8AM - 4PM</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <Card className="bg-muted/60 dark:bg-card">
+        {/* <Card className="bg-muted/60 dark:bg-card">
           <CardHeader className="text-primary text-2xl"> </CardHeader>
           <CardContent>
             <Form {...form}>
@@ -238,7 +238,7 @@ export const ContactSection = () => {
           </CardContent>
 
           <CardFooter></CardFooter>
-        </Card>
+        </Card> */}
       </section>
     </section>
   );

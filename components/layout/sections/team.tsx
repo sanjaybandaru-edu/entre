@@ -60,6 +60,30 @@ export const TeamSection = () => {
       ],
     },
     {
+      imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQEuz5aATWbpxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730843069126?e=1736985600&v=beta&t=nczF1b67lvQc0zdudBWS1sc2sTHqXFFxD0MVOK8CnMQ",
+      firstName: "Aadiyaa",
+      lastName: "Kurupp",
+      positions: ["Creative Specialist"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aadiyaa-kurupp-726905254",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://iili.io/2usGi5G.jpg",
+      firstName: "Aadya",
+      lastName: "Mall",
+      positions: ["Research Analyst"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aadya-mall-631948332",
+        },
+      ],
+    },
+    {
       imageUrl: "https://iili.io/2usGSsI.md.jpg",
       firstName: "Ananya",
       lastName: "Chowdary",
@@ -71,18 +95,7 @@ export const TeamSection = () => {
         },
       ],
     },
-    {
-      imageUrl: "https://iili.io/2usWuiN.md.jpg",
-      firstName: "Mayank",
-      lastName: "Ranjan",
-      positions: ["Research Analyst"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/mayankranjan24",
-        },
-      ],
-    },
+    
     {
       imageUrl: "https://collegehive.in/docs/ass/images/sanjay_dp.png",
       firstName: "Sanjay",
@@ -107,18 +120,7 @@ export const TeamSection = () => {
         },
       ],
     },
-    {
-      imageUrl: "https://iili.io/2usGi5G.jpg",
-      firstName: "Aadya",
-      lastName: "Mall",
-      positions: ["Research Analyst"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/aadya-mall-631948332",
-        },
-      ],
-    },
+    
     {
       imageUrl: "https://iili.io/2usGp19.md.jpg",
       firstName: "Aditya",
@@ -132,17 +134,18 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQEuz5aATWbpxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730843069126?e=1736985600&v=beta&t=nczF1b67lvQc0zdudBWS1sc2sTHqXFFxD0MVOK8CnMQ",
-      firstName: "Aadiyaa",
-      lastName: "Kurupp",
-      positions: ["Creative Specialist"],
+      imageUrl: "https://iili.io/2usWuiN.md.jpg",
+      firstName: "Mayank",
+      lastName: "Ranjan",
+      positions: ["Research Analyst"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/aadiyaa-kurupp-726905254",
+          url: "https://www.linkedin.com/in/mayankranjan24",
         },
       ],
     },
+    
     {
       imageUrl: "https://iili.io/2usMC11.md.jpg",
       firstName: "Gul",
@@ -163,7 +166,7 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/gul-mandot-7a152623b",
+          url: "https://www.linkedin.com/in/anshu-gupta-0a6bb8331",
         },
       ],
     },

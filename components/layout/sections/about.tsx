@@ -26,19 +26,22 @@ const aboutInfo = [
 export const AboutSection = () => {
   return (
     <section id="about-us" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
+      <h2 className="text-3xl text-primary text-center mb-2 tracking-wider font-bold mb-4">
         About Us
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Our Purpose and Vision
-      </h2>
+      <h3 className="md:w-1/40 mx-auto text-2xl text-center text-muted-foreground mb-8">
+      EntreConnect is a venture initiated by the students of IIM Bangalore, who thrives to promote & foster
+Entrepreneurship. At EntreConnect, we empower aspiring entrepreneurs to turn ideas into successful ventures.
+Through entry-level resources, we provide guidance, and hands-on-support needed to build, launch, and grow impactful businesses
+confidently. Let us help you transform your vision into a reality.
+      </h3>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+      {/* <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         At Entreconnect, we’re committed to building a supportive ecosystem that
         brings together knowledge, resources, and community for aspiring
         entrepreneurs.
-      </h3>
+      </h3> */}
 
       <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
         {aboutInfo.map(({ icon, title, description }) => (

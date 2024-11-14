@@ -1,6 +1,9 @@
 import { Separator } from "@/components/ui/separator";
 import { ChevronsDownIcon } from "lucide-react";
 import Link from "next/link";
+import { FaWhatsapp, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import Image from "next/image";
+
 
 export const FooterSection = () => {
   return (
@@ -9,34 +12,39 @@ export const FooterSection = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
           <div className="col-span-full xl:col-span-2">
             <Link href="#" className="flex font-bold items-center">
-              <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
+            <Image
+          src="/logo.svg" // Adjust to your logo file path and format
+          alt="Entreconnect Logo"
+          width={50} // Set appropriate width
+          height={50} // Set appropriate height
+          priority // This ensures the logo loads quickly for better UX
+        />
 
               <h3 className="text-2xl">Entre.Connect</h3>
             </Link>
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Contact</h3>
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
-              </Link>
-            </div>
+            <h3 className="font-bold text-lg">Join Us</h3>
 
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitter
+            <div className="flex gap-6">
+              <Link href="https://chat.whatsapp.com/Kmd9uXyNDdPBBLXo5QI2IC" className="flex items-center gap-2 opacity-60 hover:opacity-100 text-xl">
+                <FaWhatsapp className="text-2xl" />
+                <span>Whatsapp</span>
               </Link>
-            </div>
 
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Instagram
+              <Link href="https://www.linkedin.com/company/entre-connect" className="flex items-center gap-2 opacity-60 hover:opacity-100 text-xl">
+                <FaLinkedin className="text-2xl" />
+                <span>Linkedin</span>
+              </Link>
+
+              <Link href="https://www.instagram.com/entre.connect._" className="flex items-center gap-2 opacity-60 hover:opacity-100 text-xl">
+                <FaInstagram className="text-2xl" />
+                <span>Instagram</span>
               </Link>
             </div>
           </div>
-
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Platforms</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
@@ -55,9 +63,9 @@ export const FooterSection = () => {
                 Web
               </Link>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Help</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
@@ -97,20 +105,13 @@ export const FooterSection = () => {
                 Dribbble
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
             &copy; Copyright 2024 Entre.Connect - All Rights Reserved
-            <Link
-              target="_blank"
-              href="https://www.linkedin.com/in/sanjaybandaru/"
-              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
-            >
-              Sanjay Bandaru
-            </Link>
           </h3>
         </section>
       </div>

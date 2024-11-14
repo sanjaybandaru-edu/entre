@@ -10,40 +10,40 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "UserCheck",
+    title: "Industry-Specific Mentorship",
     description:
-      "Access Entreconnect from any device, allowing you to learn and connect on the go.",
+      "Connect with mentors who are experienced founders in your field, providing relevant, field-specific guidance to avoid common pitfalls and accelerate growth.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Briefcase",
+    title: "Comprehensive Support",
     description:
-      "Join a network of trusted clients and successful startups that have benefited from Entreconnect’s support.",
+      "Access a complete suite of business services, from market research to web development and financial planning, all on one platform to streamline your startup journey.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "Users",
+    title: "Community Networking",
     description:
-      "Get relevant, actionable insights and resources tailored specifically for young entrepreneurs.",
+      "Join a vibrant community of student founders, early-stage entrepreneurs, and industry experts to collaborate, share insights, and foster valuable partnerships.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Engaging Visuals",
+    icon: "BarChart2",
+    title: "Data-Driven Insights",
     description:
-      "Entreconnect’s interface is designed for clarity and ease, with visual elements that enhance your learning experience.",
+      "Utilize data-driven market research, competitor analysis, and customer insights to make informed decisions and gain a strategic advantage in your industry.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear Call to Action",
+    icon: "DollarSign",
+    title: "Scalable Pricing",
     description:
-      "Straightforward pathways to resources, consultations, and community interactions ensure you get the support you need quickly.",
+      "Choose from pricing plans tailored to your growth stage, with affordable options that allow you to scale support as your business grows.",
   },
   {
-    icon: "Newspaper",
-    title: "Informative Headline",
+    icon: "GraduationCap",
+    title: "Student-Focused Resources",
     description:
-      "A concise overview of Entreconnect’s offerings helps you understand how we can support your startup journey from the outset.",
+      "Benefit from resources and tools specifically tailored to student entrepreneurs, addressing unique challenges in balancing academics with business growth.",
   },
 ];
 
@@ -59,7 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Entreconnect combines technology, community, and expertise to empower early-stage student founders and give them the resources they need for success.
+        Entreconnect combines technology, community, and expertise to empower early-stage student founders and provide the tailored resources they need for success.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

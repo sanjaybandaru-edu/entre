@@ -13,31 +13,57 @@ interface FAQProps {
 
 const faqs: FAQProps[] = [
   {
-    question: "What makes EntreConnect different from other platforms?",
-    answer: "EntreConnect combines AI-powered analytics with human expertise, providing personalized insights and mentorship that evolve with your business needs.",
+    question: "What types of services does EntreConnect offer?",
+    answer: "EntreConnect offers a range of services tailored for early-stage founders, including personalized mentorship, strategic consulting, in-depth market research, business reporting, and website development.",
     value: "item-1",
   },
   {
-    question: "How does the AI mentorship system work?",
-    answer: "Our AI analyzes your business data and market trends to provide tailored recommendations, while matching you with mentors who have relevant expertise in your industry.",
+    question: "How can EntreConnect help me grow my startup?",
+    answer: "We provide resources to guide you from ideation to launch, with expert mentorship, strategic planning, and insights into market trends, all designed to accelerate your startup's growth.",
     value: "item-2",
   },
   {
-    question: "What kind of businesses do you support?",
-    answer: "We support startups and SMEs across various industries, from tech and e-commerce to manufacturing and services, at any stage of their growth journey.",
+    question: "What makes EntreConnect’s mentorship program unique?",
+    answer: "Our mentorship program connects you with experienced founders in your specific field, ensuring relevant, industry-specific advice and guidance that can be applied directly to your business.",
     value: "item-3",
   },
   {
-    question: "Can I upgrade or downgrade my plan?",
-    answer: 'Yes, you can change your plan at any time. Changes take effect at the start of the next billing cycle, and we\'ll prorate any payments accordingly.',
+    question: "What does the market research service include?",
+    answer: "Our market research includes competitor benchmarking, industry trend analysis, and customer behavior insights, helping you make informed business decisions based on data-driven insights.",
     value: "item-4",
   },
   {
-    question: "What kind of support do you offer?",
-    answer: "24/7 technical support, dedicated account managers for premium plans, and regular check-ins with our expert mentors to ensure you're on track to meet your goals.",
+    question: "Can EntreConnect help with creating a website for my startup?",
+    answer: "Yes, we offer web development services that focus on creating mobile-friendly, SEO-optimized websites with e-commerce capabilities, helping you establish a strong digital presence.",
     value: "item-5",
   },
+  {
+    question: "What is included in a business report?",
+    answer: "Business reports cover key performance analysis, growth opportunities, and strategic recommendations, providing you with actionable insights to support sustainable growth.",
+    value: "item-6",
+  },
+  {
+    question: "How do I know which membership plan is right for me?",
+    answer: "Our Gold plan is ideal for early-stage guidance, while the Platinum plan provides advanced mentorship, customized research, and in-depth strategic support. Contact us for a consultation if you need further help choosing.",
+    value: "item-7",
+  },
+  {
+    question: "Do I need to be a student to join EntreConnect?",
+    answer: "No, while we primarily support student entrepreneurs, EntreConnect welcomes early-stage founders from diverse backgrounds who are seeking mentorship and guidance.",
+    value: "item-8",
+  },
+  {
+    question: "Are mentorship sessions one-on-one or group-based?",
+    answer: "We offer both options. Individual mentorship sessions are available for tailored advice, while group workshops allow founders to learn collectively from mentors and peers.",
+    value: "item-9",
+  },
+  {
+    question: "How does EntreConnect support ongoing progress and development?",
+    answer: "We provide regular check-ins and progress reviews as part of our mentorship and consulting services, ensuring that your startup continues to grow and overcome challenges effectively.",
+    value: "item-10",
+  },
 ];
+
 
 export const FAQSection = () => {
   return (

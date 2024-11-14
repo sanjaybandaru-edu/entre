@@ -25,38 +25,30 @@ interface ReviewProps {
 }
 
 const reviewList: ReviewProps[] = [
-  {
-    image: "https://example.com/user1.png",
-    name: "Liam Hayes",
-    userName: "Startup Founder - Tech Innovator",
-    comment:
-      "Entreconnect has been a game-changer for my startup journey. The mentorship sessions and consulting have been invaluable in turning my idea into a scalable business model. I couldn’t have done it alone!",
-    rating: 5.0,
-  },
+  // {
+  //   image: "https://example.com/user1.png",
+  //   name: "Liam Hayes",
+  //   userName: "Startup Founder - Tech Innovator",
+  //   comment:
+  //     "Entreconnect has been a game-changer for my startup journey. The mentorship sessions and consulting have been invaluable in turning my idea into a scalable business model. I couldn’t have done it alone!",
+  //   rating: 5.0,
+  // },
   {
     image: "https://example.com/user2.png",
-    name: "Olivia Patel",
+    name: "K. Vamshidar Reddy",
     userName: "Entrepreneur & Student",
     comment:
       "As a student founder, Entreconnect provided me with the tools I needed to navigate early-stage challenges. The market research insights were spot-on, helping me understand my competition and refine my strategy.",
     rating: 4.9,
   },
-  {
-    image: "https://example.com/user3.png",
-    name: "Mason Lee",
-    userName: "Young Innovator in Health Tech",
-    comment:
-      "The community at Entreconnect has been incredibly supportive. I’ve gained both clients and friends. The events and networking opportunities opened doors I never thought possible!",
-    rating: 5.0,
-  },
-  {
-    image: "https://example.com/user4.png",
-    name: "Emma Wu",
-    userName: "Business Management Student",
-    comment:
-      "Entreconnect’s services gave me confidence to take my startup to the next level. The website development team made my vision come to life, and now my online presence is stronger than ever!",
-    rating: 4.8,
-  },
+  // {
+  //   image: "https://example.com/user4.png",
+  //   name: "Emma Wu",
+  //   userName: "Business Management Student",
+  //   comment:
+  //     "Entreconnect’s services gave me confidence to take my startup to the next level. The website development team made my vision come to life, and now my online presence is stronger than ever!",
+  //   rating: 4.8,
+  // },
   {
     image: "https://example.com/user5.png",
     name: "Dr. Pavan Soni",
@@ -86,7 +78,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Hear What People Say About Us!
         </h2>
       </div>
 

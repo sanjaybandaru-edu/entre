@@ -43,6 +43,11 @@ const services: ServiceProps[] = [
     title: 'Professional Web Development',
     description: 'Develop custom, responsive websites to enhance your digital footprint and customer reach.',
     features: ['Mobile Optimization', 'SEO Best Practices', 'E-commerce Integration'],
+  },
+  {
+    title: 'Business Model Canvas & Reports',
+    description: 'Access tools to build a comprehensive Business Model Canvas and receive detailed, compiled reports for strategic planning.',
+    features: ['Business Model Canvas Tools', 'Detailed Financial Reports', 'Compiled Market & Competitor Analysis'],
   }
 ];
 

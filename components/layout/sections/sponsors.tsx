@@ -18,26 +18,26 @@ const sponsors: sponsorsProps[] = [
     icon: "Vegan",
     name: "EntreConnect",
   },
-  {
-    icon: "Ghost",
-    name: "Acmesponsor",
-  },
-  {
-    icon: "Puzzle",
-    name: "Acmeipsum",
-  },
-  {
-    icon: "Squirrel",
-    name: "Acme",
-  },
-  {
-    icon: "Cookie",
-    name: "Accmee",
-  },
-  {
-    icon: "Drama",
-    name: "Acmetech",
-  },
+  // {
+  //   icon: "Ghost",
+  //   name: "Acmesponsor",
+  // },
+  // {
+  //   icon: "Puzzle",
+  //   name: "Acmeipsum",
+  // },
+  // {
+  //   icon: "Squirrel",
+  //   name: "Acme",
+  // },
+  // {
+  //   icon: "Cookie",
+  //   name: "Accmee",
+  // },
+  // {
+  //   icon: "Drama",
+  //   name: "Acmetech",
+  // },
 ];
 
 export const SponsorsSection = () => {

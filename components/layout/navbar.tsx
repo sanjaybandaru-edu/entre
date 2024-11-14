@@ -1,6 +1,7 @@
 "use client";
 import { ChevronsDown, ChevronsUp, Github, Menu } from "lucide-react";
 import React from "react";
+
 import {
   Sheet,
   SheetContent,
@@ -78,9 +79,17 @@ export const Navbar = () => {
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsUp className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Entre.Connect
-      </Link>
+  <Image
+    src="/logo.svg" // Adjust to your logo file path and format
+    alt="Entreconnect Logo"
+    width={50} // Set appropriate width
+    height={50} // Set appropriate height
+    priority // This ensures the logo loads quickly for better UX
+    className="p-2" // Add padding around the image
+  />  
+  <span className="ml-2">EntreConnect</span> {/* Adds left margin to space out text */}
+</Link>
+
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -99,7 +108,13 @@ export const Navbar = () => {
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
-                    <ChevronsUp className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
+                    <Image
+          src="/logo.svg" // Adjust to your logo file path and format
+          alt="Entreconnect Logo"
+          width={50} // Set appropriate width
+          height={50} // Set appropriate height
+          priority // This ensures the logo loads quickly for better UX
+        />
                     Entre.connect
                   </Link>
                 </SheetTitle>
