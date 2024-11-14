@@ -38,19 +38,6 @@ export const HeroSection = () => {
               Get Started
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
-
-            <Button
-              asChild
-              variant="secondary"
-              className="w-5/6 md:w-1/4 font-bold"
-            >
-              <Link
-                href="https://github.com/nobruf/shadcn-landing-page.git"
-                target="_blank"
-              >
-                Github respository
-              </Link>
-            </Button>
           </div>
         </div>
 
