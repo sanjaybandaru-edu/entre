@@ -24,7 +24,7 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://media.licdn.com/dms/image/v2/D4E03AQEOl7T4ouRFHQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726415824311?e=1736985600&v=beta&t=NWxiyxgunV8odaA-x8GLy8dpGGkMtyxK22a5czHFNQk",
+      imageUrl: "https://iili.io/2uLBq41.jpg",
       firstName: "Anurag",
       lastName: "Mishra",
       positions: ["Founder"],
@@ -39,7 +39,7 @@ export const TeamSection = () => {
       imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQGhPxVoEFN4Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726726232944?e=1736985600&v=beta&t=XpwscfHSy_jv5Mljkxilpk1-tmCGlIpuJ0aicA2ACxw",
       firstName: "Aman",
       lastName: "Thoyaj",
-      positions: ["Co-Founder"],
+      positions: ["Co-Founder","COO"],
       socialNetworks: [
         {
           name: "LinkedIn",
@@ -55,35 +55,31 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/rakshita-ec/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/rakshitaec",
+          url: "https://www.linkedin.com/in/rakshitasanghvi",
         },
       ],
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "https://iili.io/2usGSsI.md.jpg",
       firstName: "Ananya",
-      lastName: "EC",
-      positions: ["Position Title"],
+      lastName: "Chowdary",
+      positions: ["Marketing Associate"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/ananya-ec/",
+          url: "https://www.linkedin.com/in/ananyachaudhary051006",
         },
       ],
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "https://iili.io/2usWuiN.md.jpg",
       firstName: "Mayank",
-      lastName: "Lastname",
-      positions: ["Position Title"],
+      lastName: "Ranjan",
+      positions: ["Research Analyst"],
       socialNetworks: [
         {
-          name: "Github",
-          url: "https://github.com/mayank",
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/mayankranjan24",
         },
       ],
     },
@@ -95,47 +91,43 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/habibur-ec/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/habiburec",
+          url: "www.linkedin.com/in/sanjaybandaru",
         },
       ],
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "https://iili.io/2usMVI4.md.jpg",
       firstName: "Dolly",
-      lastName: "Lastname",
-      positions: ["Position Title"],
-      socialNetworks: [
-        {
-          name: "Github",
-          url: "https://github.com/dollylastname",
-        },
-      ],
-    },
-    {
-      imageUrl: "https://ibb.co/9GsjD7v",
-      firstName: "Aadya",
-      lastName: "Mall",
-      positions: [""],
-      socialNetworks: [
-        {
-          name: "Github",
-          url: "https://github.com/aadyaec",
-        },
-      ],
-    },
-    {
-      imageUrl: "https://ibb.co/f8HN7rY",
-      firstName: "Aditya",
-      lastName: "Dev",
-      positions: ["Position Title"],
+      lastName: "Agarwal",
+      positions: ["Creative Specialist"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/aditya-ec/",
+          url: "#",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://iili.io/2usGi5G.jpg",
+      firstName: "Aadya",
+      lastName: "Mall",
+      positions: ["Research Analyst"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aadya-mall-631948332",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://iili.io/2usGp19.md.jpg",
+      firstName: "Aditya",
+      lastName: "Dev",
+      positions: ["HR Co-Ordinator"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aditya-dev-1956b826a/",
         },
       ],
     },
@@ -143,14 +135,39 @@ export const TeamSection = () => {
       imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQEuz5aATWbpxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730843069126?e=1736985600&v=beta&t=nczF1b67lvQc0zdudBWS1sc2sTHqXFFxD0MVOK8CnMQ",
       firstName: "Aadiyaa",
       lastName: "Kurupp",
-      positions: ["Content Creator"],
+      positions: ["Creative Specialist"],
       socialNetworks: [
         {
-          name: "X",
-          url: "https://x.com/aadiyaaec",
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/aadiyaa-kurupp-726905254",
         },
       ],
     },
+    {
+      imageUrl: "https://iili.io/2usMC11.md.jpg",
+      firstName: "Gul",
+      lastName: "Mandot",
+      positions: ["Client Engagement Specialist"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/gul-mandot-7a152623b",
+        },
+      ],
+    },
+    {
+      imageUrl: "https://iili.io/2uLBfEP.md.jpg",
+      firstName: "Anshu",
+      lastName: "Gupta",
+      positions: ["Event Co-Ordinator"],
+      socialNetworks: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/gul-mandot-7a152623b",
+        },
+      ],
+    },
+
   ];
   
   const socialIcon = (socialName: string) => {

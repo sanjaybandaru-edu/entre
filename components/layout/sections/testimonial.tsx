@@ -59,20 +59,21 @@ const reviewList: ReviewProps[] = [
   },
   {
     image: "https://example.com/user5.png",
-    name: "Noah Kim",
-    userName: "EdTech Startup Founder",
+    name: "Dr. Pavan Soni",
+    userName: "Innovation Evangelist, Professor at IIM B and ISB Hyderabad",
     comment:
-      "The consulting sessions helped me identify areas for growth and set realistic goals. Entreconnect truly understands the unique challenges student founders face, and they provide targeted support every step of the way.",
+      "This is a great initiative towards shaping the lives of studentpreneurs. I would love joining this community.",
     rating: 5.0,
   },
   {
     image: "https://example.com/user6.png",
-    name: "Sophia Tran",
-    userName: "Marketing Student & Founder",
+    name: "Rahul Khatri",
+    userName: "Founder & CEO at AuraX",
     comment:
-      "Entreconnect helped me develop a business report that made my startup pitch-ready. Their guidance has been essential in securing my first round of funding. Highly recommend for any student entrepreneur!",
+      "I never thought EntreConnect could be this great. The community is very good, Great work!",
     rating: 4.9,
   },
+
 ];
 
 

@@ -32,7 +32,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "ibb.co",
+        hostname: "iili.io",
       },
       
       
