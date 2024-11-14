@@ -21,6 +21,7 @@ interface PlanProps {
   price: string | number;
   description: string;
   buttonText: string;
+  buttonUrl: string;
   benefitList: string[];
   IconComponent: React.ElementType;
 }
@@ -32,6 +33,7 @@ const plans: PlanProps[] = [
     price: 3000,
     description: "Perfect for growing businesses",
     buttonText: "Get Started",
+    buttonUrl: "https://forms.gle/743wg3GfPnZHV2bC6",
     benefitList: [
       "AI-powered business analytics",
       "Monthly mentor sessions",
@@ -47,6 +49,7 @@ const plans: PlanProps[] = [
     price: 4800,
     description: "For scaling companies",
     buttonText: "Get Started",
+    buttonUrl: "https://forms.gle/9FD81pDuWRy8kmb99",
     benefitList: [
       "Advanced AI insights",
       "Weekly mentor sessions",
@@ -63,6 +66,7 @@ const plans: PlanProps[] = [
     price: "Custom",
     description: "For large organizations",
     buttonText: "Contact Us",
+    buttonUrl: "https://forms.gle/eAiXNMDjQN5isHyB9",
     benefitList: [
       "Custom AI solutions",
       "Unlimited mentorship",
@@ -92,7 +96,7 @@ export const PricingSection = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
         {plans.map(
-          ({ title, popular, price, description, buttonText, benefitList, IconComponent }) => (
+          ({ title, popular, price, description, buttonText, buttonUrl, benefitList, IconComponent }) => (
             <Card
               key={title}
               className={
@@ -131,12 +135,14 @@ export const PricingSection = () => {
               </CardContent>
 
               <CardFooter>
-                <Button
-                  variant={popular === PopularPlan.YES ? "default" : "secondary"}
-                  className="w-full"
-                >
-                  {buttonText}
-                </Button>
+                <a href={buttonUrl}>
+                  <Button
+                    variant={popular === PopularPlan.YES ? "default" : "secondary"}
+                    className="w-full"
+                  >
+                    {buttonText}
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
           )

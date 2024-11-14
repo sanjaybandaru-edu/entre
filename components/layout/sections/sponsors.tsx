@@ -12,11 +12,11 @@ interface sponsorsProps {
 const sponsors: sponsorsProps[] = [
   {
     icon: "Crown",
-    name: "Acmebrand",
+    name: "CollegeHive",
   },
   {
     icon: "Vegan",
-    name: "Acmelogo",
+    name: "EntreConnect",
   },
   {
     icon: "Ghost",
