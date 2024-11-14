@@ -10,6 +10,7 @@ import { ServicesSection } from "@/components/layout/sections/services";
 import { SponsorsSection } from "@/components/layout/sections/sponsors";
 import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
+import {AboutSection} from"@/components/layout/sections/about";
 
 export const metadata = {
   title: "EntreConnect",
@@ -44,6 +45,7 @@ export default function Home() {
     <>
       <HeroSection />
       <SponsorsSection />
+      <AboutSection/>
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
